@@ -13,6 +13,18 @@
   align-items: flex-end;
   text-align: left;
 }
+.logo {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    justify-content: space-between;
+}
+    .inner-logo {
+      display: inline-block;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 25px;
+    }
 
 .App-header {
   background-color: #041B2D;

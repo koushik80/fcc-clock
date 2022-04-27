@@ -7,7 +7,11 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+       <div className='logo'>
+         <div className='inner-logo'>devHuß
+           <img src={logo} className="App-logo" alt="logo" />
+         </div>
+       </div>
       </header>
       <div className="wrapper">
       <h2>25 + 5 Clock</h2>
