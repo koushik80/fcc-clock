@@ -13,6 +13,7 @@ const App = () => {
          </div>
        </div>
       </header>
+      <div className="background">
       <div className="wrapper">
       <h2>25 + 5 Clock</h2>
       <div className="break-session-length">
@@ -46,7 +47,8 @@ const App = () => {
       id="beep"
       preload="auto"
       src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
-    />
+        />
+        </div>
     </div>);
 }
 
