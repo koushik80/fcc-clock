@@ -74,14 +74,19 @@ div > button {
   -ms-transform: translate(-50%, -50%);
 }
 div > button:hover {
-  background-color: black;
+  background-color: #E8B7D4;
   color: white;
 }
-
 
 div button:nth-child(2) {
   color: white;
   background-color: #DE5B6D;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+div button:nth-child(2):hover {
+  background-color: #6AAB9C;
+  color: white;
 }
 
 strong {
@@ -99,9 +104,6 @@ strong {
 .timer-wrapper > button {
   margin-left: 10px
 }
-
-
-
 
 @keyframes App-logo-spin {
   from {
