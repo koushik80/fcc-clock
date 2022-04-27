@@ -3,7 +3,7 @@
   font-family: 'Roboto', sans-serif;
 
   font-size: 40px;
-  color: #534666;
+  color: #3C4CAD;
 }
 
 .App-logo {
@@ -94,11 +94,12 @@ strong {
 }
 
 .timer {
-  border: 2px solid #ccc;
+  border: 2px solid #47CACC;
   border-radius: 10px;
   text-align: center;
   margin: 20px 0;
-  padding-top: 10px;
+  padding-top: 5px;
+  background-color: white;
 }
 
 .timer-wrapper > button {
