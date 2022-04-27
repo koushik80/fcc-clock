@@ -1,7 +1,7 @@
 *{
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-size: 44px;
   color: #3C4CAD;
 }
 
@@ -40,7 +40,9 @@
     justify-content: center;
     align-items: center;
 }
-
+.wrapper h2 {
+  margin: 0;
+}
 .background {
   background-image: url("../public/clock.jpg");
   background-repeat: no-repeat;
@@ -48,11 +50,6 @@
   height: 100%;
 
 }
-
-.wrapper h2 {
-  margin: 0;
-}
-
 .break-session-length {
     display: flex;
     width: 700px;
@@ -62,7 +59,7 @@
 button {
   border: none;
   padding: 8px;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 4px;
 }
 

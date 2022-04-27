@@ -4,7 +4,9 @@ import './index.css';
 import './design.js';
 
 const App = () => {
-  const { handleBreakIncrease, breakLength, handleBreakDecrease, handleSessionIncrease, sessionLength, handleSessionDecrease, title, handlePlay, handleReset, play, timeFormatter = () => "25:00" } = {}
+  const [breakLength, setBreakLength] = React.useState(5);
+  const [sessionLength, setSessionLength] = React.useState(25);
+  const { handleBreakIncrease, handleBreakDecrease, handleSessionIncrease, handleSessionDecrease, title, handlePlay, handleReset, play, timeFormatter = () => "25:00" } = {}
   return (
     <div className="App">
       <header className="App-header">
