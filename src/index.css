@@ -69,8 +69,8 @@ button {
 div > button {
   color: white;
   background-color: #35BBCA;
-  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
 }
 div > button:hover {
   background-color: #E8B7D4;
@@ -80,8 +80,8 @@ div > button:hover {
 div button:nth-child(2) {
   color: white;
   background-color: #DE5B6D;
-  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 div button:nth-child(2):hover {
   background-color: #6AAB9C;
