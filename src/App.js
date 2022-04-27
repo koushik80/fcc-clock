@@ -1,6 +1,7 @@
 import * as React from 'react';
 import logo from './logo.png';
 import './index.css';
+import './design.js';
 
 const App = () => {
   const { handleBreakIncrease, breakLength, handleBreakDecrease, handleSessionIncrease, sessionLength, handleSessionDecrease, title, handlePlay, handleReset, play, timeFormatter = () => "25:00" } = {}
