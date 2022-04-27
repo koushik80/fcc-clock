@@ -10,6 +10,8 @@
   height: 4vmin;
   pointer-events: none;
   border-radius: 50%;
+  padding: 0 15px 2px 4px;
+  margin-bottom: 2px;
 }
 .logo {
     position: absolute;
@@ -22,6 +24,8 @@
       font-style: italic;
       font-weight: bold;
       font-size: 25px;
+      padding: 12px 5px;
+      color: white;
     }
 
 .App-header {
@@ -32,6 +36,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+ 
 }
 
 .wrapper {
