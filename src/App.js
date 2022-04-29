@@ -75,11 +75,11 @@ const handleBreakDecrease = () => {
 
   const clock = () => {
     if (play) {
-      timeout
-      resetTimer()
-    } else {
-      clearTimeout(timeout)
-    }
+    timeout
+    resetTimer()
+  } else {
+    clearTimeout(timeout)
+  }
   }
 
   React.useEffect(() => {
