@@ -6,7 +6,7 @@ import './design.js';
 const App = () => {
   const [breakLength, setBreakLength] = React.useState(5);
   const [sessionLength, setSessionLength] = React.useState(25);
-   const [timeLeft, seTtimeLeft] = React.useState(1500);
+  const [timeLeft, seTtimeLeft] = React.useState(1500);
   const [timingType, setTimingtype] = React.useState("SESSION");
   const [play, setPlay] = React.useState(false);
 
@@ -74,7 +74,7 @@ const handleBreakDecrease = () => {
   }
 
   const clock = () => {
-    if(play){
+    if (play) {
       timeout
       resetTimer()
     } else {
@@ -119,7 +119,7 @@ const handleBreakDecrease = () => {
          </div>
          <div>
            <h3 id="session-label">Session Length</h3>
-           <div>
+         <div>
             <button disabled={play} onClick={handleSessionIncrease} id="session-increment">+</button>
               <strong id="session-length">{sessionLength}</strong>
             <button disabled={play} onClick={handleSessionDecrease} id="session-decrement">-</button>
@@ -143,5 +143,6 @@ const handleBreakDecrease = () => {
         </div>
     </div>);
 }
+
 
 export default App;
