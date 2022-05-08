@@ -74,14 +74,14 @@ const handleBreakDecrease = () => {
       audio.currentTime = 0;
     }
   }
-
   const clock = () => {
     if (play) {
-    timeout
-    resetTimer()
-  } else {
-    clearTimeout(timeout)
-  }
+      // eslint-disable-next-line no-unused-expressions
+      timeout
+      resetTimer();
+    } else {
+      clearTimeout(timeout);
+    }
   }
 
   React.useEffect(() => {
@@ -143,13 +143,13 @@ const handleBreakDecrease = () => {
         <button onClick={handleReset} id="reset">Reset</button>
       </div>
       </div>
-      </div>
-    <audio
+    </div>
+     <audio
       id="beep"
       preload="auto"
       src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
         />
-        </div>
+      </div>
     </div>);
 
 }
