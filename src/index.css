@@ -20,7 +20,6 @@
 }
     .inner-logo {
       display: flex;
-      font-style: italic;
       font-weight: bold;
       font-size: 25px;
       padding: 12px 5px;
@@ -99,20 +98,19 @@ strong {
 
 .timer {
   border: 2px solid #47CACC;
-  border-radius: 10px;
   text-align: center;
-  margin: 20px 0;
-  padding-top: 10px;
+  border-radius: 5px;
   background-color: white;
   width: 400px;
-  height: 150px;
+  height: 130px;
+  margin: 20px 0;
+  padding-top: 10px;
 }
 
 .timer-wrapper > button {
   margin-left: 80px;
 }
 .timer-button {
-
   margin-left: 160px;
 }
 .button-break {
@@ -123,7 +121,7 @@ strong {
 }
 
 .session-timer {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
   color: #1D8348;
 }
 .session-formatter{
