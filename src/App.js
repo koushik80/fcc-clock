@@ -110,9 +110,9 @@ const handleBreakDecrease = () => {
       <div className="wrapper">
       <h2>25 + 5 Clock</h2>
       <div className="break-session-length">
-        <div className='button-break'>
+        <div>
           <h3 id="break-label">Break Length</h3>
-          <div>
+          <div className='button-break'>
             <button disabled={play} onClick={handleBreakIncrease} id="break-increment">+</button>
               <strong id="break-length">{breakLength}</strong>
             <button disabled={play} onClick={handleBreakDecrease} id="break-decrement">-</button>
@@ -120,7 +120,7 @@ const handleBreakDecrease = () => {
          </div>
          <div>
            <h3 id="session-label">Session Length</h3>
-         <div>
+         <div className='button-session'>
             <button disabled={play} onClick={handleSessionIncrease} id="session-increment">+</button>
               <strong id="session-length">{sessionLength}</strong>
             <button disabled={play} onClick={handleSessionDecrease} id="session-decrement">-</button>
