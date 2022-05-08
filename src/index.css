@@ -103,15 +103,18 @@ strong {
   text-align: center;
   margin: 20px 0;
   padding-top: 10px;
-  padding-bottom: 15px;
   background-color: white;
   width: 400px;
+  
 }
 
 .timer-wrapper > button {
-  margin-left: 10px;
+  margin-left: 80px;
 }
+.timer-button {
 
+  margin-left: 160px;
+}
 .ball {
   position:absolute;
   border-radius: 100%;

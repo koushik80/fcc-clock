@@ -110,7 +110,7 @@ const handleBreakDecrease = () => {
       <div className="wrapper">
       <h2>25 + 5 Clock</h2>
       <div className="break-session-length">
-        <div>
+        <div className='button-break'>
           <h3 id="break-label">Break Length</h3>
           <div>
             <button disabled={play} onClick={handleBreakIncrease} id="break-increment">+</button>
@@ -131,9 +131,11 @@ const handleBreakDecrease = () => {
         <div className="timer">
            <h2 id="timer-label">{title}</h2>
            <h3 id="time-left">{timeFormatter()}</h3>
-        </div>
+            </div>
+      <div className="timer-button">
         <button onClick={handlePlay} id="start_stop">Start/Stop</button>
         <button onClick={handleReset} id="reset">Reset</button>
+      </div>
       </div>
       </div>
     <audio
