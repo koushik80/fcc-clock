@@ -109,7 +109,12 @@ const handleBreakDecrease = () => {
       </header>
      <div className="background">
       <div className="wrapper">
-      <h2>25 + 5 Clock</h2>
+    <h2>
+      <span className="title-word title-word-1">25</span>
+      <span className="title-word title-word-2">  +  </span>
+      <span className="title-word title-word-3">5 </span>
+      <span className="title-word title-word-4"> Clock</span>
+    </h2>
       <div className="break-session-length">
         <div>
           <h3 id="break-label">Break Length</h3>
