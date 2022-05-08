@@ -134,7 +134,7 @@ const handleBreakDecrease = () => {
         <button onClick={handlePlay} id="start_stop">Start/Stop</button>
         <button onClick={handleReset} id="reset">Reset</button>
       </div>
-    </div>
+      </div>
     <audio
       id="beep"
       preload="auto"
@@ -142,6 +142,7 @@ const handleBreakDecrease = () => {
         />
         </div>
     </div>);
+
 }
 
 
