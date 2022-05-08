@@ -88,7 +88,12 @@ div button:nth-child(2):hover {
 }
 
 strong {
-  margin: 0 8px;
+  margin-right: 20px;
+  margin-bottom: 18px;
+  font-size: 40px;
+  position: relative;
+  top: -8px;
+  color: #E00F6E;
 }
 
 .timer {
