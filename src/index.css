@@ -105,6 +105,7 @@ strong {
   padding-top: 10px;
   background-color: white;
   width: 400px;
+  height: 150px;
 }
 
 .timer-wrapper > button {
@@ -121,6 +122,14 @@ strong {
   margin-left: 95px;
 }
 
+.session-timer {
+  margin-bottom: 18px;
+  color: #1D8348;
+}
+.session-formatter{
+  color: #E00F6E;
+  font-size: 40px;
+}
 .ball {
   position:absolute;
   border-radius: 100%;

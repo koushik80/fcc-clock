@@ -4,6 +4,7 @@ import './index.css';
 import './design.js';
 
 
+
 const App = () => {
   const [breakLength, setBreakLength] = React.useState(5);
   const [sessionLength, setSessionLength] = React.useState(25);
@@ -129,8 +130,8 @@ const handleBreakDecrease = () => {
       </div>
       <div className="timer-wrapper">
         <div className="timer">
-           <h2 id="timer-label">{title}</h2>
-           <h3 id="time-left">{timeFormatter()}</h3>
+           <h1 className="session-timer" id="timer-label">{title}</h1>
+           <h3 className="session-formatter" id="time-left">{timeFormatter()}</h3>
             </div>
       <div className="timer-button">
         <button onClick={handlePlay} id="start_stop">Start/Stop</button>
