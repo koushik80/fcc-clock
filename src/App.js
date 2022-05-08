@@ -86,6 +86,7 @@ const handleBreakDecrease = () => {
 
   React.useEffect(() => {
     clock()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [play, timeLeft, timeout])
 
   const timeFormatter = () => {
