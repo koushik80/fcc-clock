@@ -41,7 +41,7 @@
     align-items: center;
 }
 .wrapper h2 {
-  margin: 0;
+  margin: 20px;
 }
 .background {
   background-image: url("../public/clock.jpg");
@@ -54,8 +54,9 @@
 }
 .break-session-length {
     display: flex;
-    width: 700px;
+    width: 800px;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 button {
@@ -101,12 +102,14 @@ strong {
   border-radius: 10px;
   text-align: center;
   margin: 20px 0;
-  padding-top: 5px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   background-color: white;
+  width: 400px;
 }
 
 .timer-wrapper > button {
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 .ball {
